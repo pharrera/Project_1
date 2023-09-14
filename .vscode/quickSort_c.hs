@@ -1,4 +1,5 @@
-
+-- Algorithm explained http://learnyouahaskell.com/recursion
+-- Setting up the IO https://riptutorial.com/haskell/example/898/hello--world-
 quickSort :: Ord a => [a] -> [a]  -- quick sort a list in Haskell
 quickSort [] = []
 quickSort (x:xs) = 
