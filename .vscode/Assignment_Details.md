@@ -1,3 +1,8 @@
+Members: Brian Benitez
+Peter Herrera
+Jason Lam
+Valerie Pham
+
 Assignment_Details.md
 
 In this assignment you will compare the procedural with the functional programming paradim.
