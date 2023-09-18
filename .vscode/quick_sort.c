@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// void quick_sort(int *a, int n);   // merge sort an array a with n elements in C
+// void quick_sort(int *a, int n);   // quick sort an array a with n elements in C
 
 
 void swap(int array[], int i, int j) {
@@ -34,6 +34,14 @@ void sort(int array[], int a, int b) {
 
 void quick_sort(int *a, int n) {
     sort(*a, 0, n - 1);
+}
+
+int main() {
+    int array[] = { };
+    int array1[] = { 9, 2, 6, 7, 5, 4, 0, 2, 7, 5 };
+    quick_sort(array, 10);
+    quick_sort(array1, 10);
+    
 }
 
 
