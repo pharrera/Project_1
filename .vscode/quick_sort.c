@@ -3,10 +3,10 @@
 // void quick_sort(int *a, int n);   // quick sort an array a with n elements in C
 
 
-void swap(int array[], int i, int j) {
-    int temp = array[j];
-    array[j] = array[i];
-    array[i] = temp;
+void swap(int array[], int j, int k) {
+    int temp = array[k];
+    array[k] = array[j];
+    array[j] = temp;
 }
 
 void sort(int array[], int a, int b) {
@@ -33,15 +33,15 @@ void sort(int array[], int a, int b) {
 }
 
 void quick_sort(int *a, int n) {
-    sort(*a, 0, n - 1);
+    sort(a, 0, n - 1);
 }
 
 int main() {
     int array[] = { };
-    int array1[] = { 9, 2, 6, 7, 5, 4, 0, 2, 7, 5 };
-    quick_sort(array, 10);
-    quick_sort(array1, 10);
-    
-}
-
+    //int array1[] = {6, 6, 7, 2, K, 8, 9, 4};
+    int array3[] = { 9, 2, 6, 7, 5, 4, 0, 2, 7, 5 };
+  
+    quick_sort(array, 0);
+    //quick_sort(array1, 8);
+    quick_sort(array3, 10);
 
