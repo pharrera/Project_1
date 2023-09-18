@@ -36,13 +36,4 @@ void quicksort(int *a, int n) {
     sort(*a, 0, n - 1);
 }
 
-int main() {
-  int list[] = { 9, 2, 6, 7, 5, 4, 0, 2, 7, 5 };
-  
-  quicksort(list, 10);
-}
 
-
-
-
- 
