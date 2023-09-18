@@ -32,7 +32,7 @@ void sort(int array[], int a, int b) {
     }
 }
 
-void quicksort(int *a, int n) {
+void quick_sort(int *a, int n) {
     sort(*a, 0, n - 1);
 }
 
