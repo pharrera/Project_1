@@ -1,3 +1,4 @@
+import GHC.Num (Integer(IN))
 -- Algorithm explained http://learnyouahaskell.com/recursion
 -- Setting up the IO https://riptutorial.com/haskell/example/898/hello--world-
 --
@@ -10,5 +11,13 @@ quickSort (x:xs) =
 
 main :: IO()
 main = do
-    let sortedList = quickSort [5, 1, 9, 4, 6, 7]
+    let sortedList = quickSort [3, 1, 9, 4, 6, 7]
     print sortedList
+
+    let emptyTest :: [Int] -- Specify type
+        emptyTest = quickSort []
+    print emptyTest
+
+    let invalidTest :: [Int]
+        invalidTest = [1, 2, 3, 2, 1]
+    print invalidTest
