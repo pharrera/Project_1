@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 // void quick_sort(int *a, int n);   // quick sort an array a with n elements in C
 
 
@@ -9,7 +8,7 @@ void swap(int array[], int j, int k) {
     array[j] = temp;
 }
 
-void sort(int array[], int a, int b) {
+void partition(int array[], int a, int b) {
     if (a >= b)
         return;
 
@@ -25,15 +24,16 @@ void sort(int array[], int a, int b) {
     }
     if (array[a] > array[i]) {
         swap(array, a, i);
-        sort(array, a, i - 1);
-        sort(array, i + 1, b);
+        partition(array, a, i - 1);
+        partition(array, i + 1, b);
     } else { 
-        sort(array, a + 1, b);
+        partition(array, a + 1, b);
     }
 }
 
 void quick_sort(int *a, int n) {
-    sort(a, 0, n - 1);
+    // Only 2 inputs required as "low" will always be 0
+    partition(a, 0, n - 1);
 }
 
 int main() {
