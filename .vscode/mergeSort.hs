@@ -21,6 +21,9 @@ main = do
     let test1 = mergesort [9,0,4,8,2,1]
     let test2 = mergesort [11, 100, 32, 59, 20, 1]
     let test3 = mergesort [33, 55, 13, 87, 45, 2, 98]
+    let test4 :: [Int]
+        test4 = mergesort []
     print test1
     print test2
     print test3
+    print test4
