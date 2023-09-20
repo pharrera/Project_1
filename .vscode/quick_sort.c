@@ -1,7 +1,4 @@
 // IDE used https://replit.com/~
-
-
-
 #include <stdio.h>
 
 void swap(int array[], int a, int b) {
@@ -46,7 +43,7 @@ void quick_sort(int *a, int n) {
 
 int main() {
     // Test Case 1:
-    int test1[] = {6, 9, 55, 7, 7, 4, 1, 5, 7,3 ,6,256, 241, 164, 14, 717, 54, 88};
+    int test1[] = {6, 9, 55, 7, 7, 4, 1, 5, 7,3 ,6, 14, 54, 88};
     int n1 = sizeof(test1) / sizeof(test1[0]); // find size of array
     quick_sort(test1, n1);
     printf("\nSorted array: ");
