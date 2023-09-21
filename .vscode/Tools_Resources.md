@@ -17,3 +17,4 @@ Resources used:
         http://learnyouahaskell.com/starting-out#an-intro-to-lists
         https://medium.com/@dathanbennett/mergesort-in-haskell-df3c446f3ae3
         
+
