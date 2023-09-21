@@ -1,6 +1,6 @@
 # Section 1
 
-Peter Herrera - Haskell vs. C Quick Sort comparative analysis. 
+Peter Herrera, Brian Benitez - Haskell vs. C Quick Sort comparative analysis. 
 
 ## Quick Sort in Haskell:
 * Since Haskell is purely functional, the approach is much more concise for implementing Quick Sort. 
@@ -24,7 +24,7 @@ Overall, I beleive Haskell is a strong tool for understanding algorithms, compar
 
 # Section 2
 
-Valerie Pham, Jason Lam
+Valerie Pham, Jason Lam - Haskell vs. C Merge Sort comparative analysis. 
 
 ## Merge Sort in Haskell:
 * Haskell is a purely functional programming language, meaning that it works like a mathematical function (answer = expression) and poses no issue of side effects.
