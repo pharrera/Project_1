@@ -17,7 +17,8 @@ Peter Herrera - Haskell vs. C Quick Sort comparative analysis.
   
   ```
   Having to choose the pivot element, then initializing the index of the smaller element. Dealing with memory in arrays requires careful management of indices and pointers.
-*. Increased complexity offers precise control and in place partioning, but opens up the possiblity of introducing errors 
+  
+* Increased complexity offers precise control and in place partioning, but opens up the possiblity of introducing errors 
 
 Overall, I beleive Haskell is a strong tool for understanding algorithms, comparable to pseudocode but emphasizing mathematic principles
 
