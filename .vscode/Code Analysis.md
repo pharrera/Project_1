@@ -23,3 +23,12 @@ Peter Herrera - Haskell vs. C Quick Sort comparative analysis.
 Overall, I beleive Haskell is a strong tool for understanding algorithms, comparable to pseudocode but emphasizing mathematic principles
 
 # Section 2
+
+Valerie Pham, Jason Lam
+
+## Quick Sort in Haskell:
+* Haskell is a purely functional programming language, meaning that it works like a mathematical function (answer = expression) and poses no issue of side effects.
+* The Ord type is used to enforce a natural ordering of lists in the merge and mergesort function.
+* Mergesort function is called recursively to continuously half the list and merge the resulting sorted lists
+
+***
