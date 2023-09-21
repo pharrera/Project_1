@@ -34,6 +34,6 @@ Valerie Pham, Jason Lam - Haskell vs. C Merge Sort comparative analysis.
 ## Merge Sort in C:
 * Unlike in Haskell, in C, a temporary array was required in order to be able to "move" or rearrange the elements in the array to sort.
 * In C, there are a lot of syntax that is needed to perform and more lines is needed compared to Haskell.
-* In Haskell, everything is written more as mathematical functions, but in C it is more str.
+* In Haskell, everything is written more as mathematical functions, but in C it is more strict.
 
 ***
